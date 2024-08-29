@@ -24,17 +24,14 @@
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-## working directory and rcode directory
-#setwd("f:/maxsync/willem/research/ecohydrology/WIMEK")
-#codedir <- "f:/maxsync/willem/research/rcode/ecohydrology"
-
 # 1. load the soil function
-#source(paste(codedir,"/RCode/ecohydrology/soilfunction.r",sep=""))
+source("soilfunction.r")
 # load veg function
-#source(paste(codedir,"/RCode/ecohydrology/2012_vegfunction.r",sep=""))
+source("vegfunction.r")
 
 # 2. See Rowlingson and Diggle, 1993 Computers and Geosciences 19:627-655
 #require(splancs)
+## Original plotting was all using lattice
 require(lattice)
 
 # -------------------------------------
