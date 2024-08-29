@@ -24,10 +24,11 @@
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+# Not needed as this is included in the salt functions
 # 1. load the soil function
-source("soilfunction.r")
+#source("soilfunction.r")
 # load veg function
-source("vegfunction.r")
+#source("vegfunction.r")
 
 # 2. See Rowlingson and Diggle, 1993 Computers and Geosciences 19:627-655
 #require(splancs)
